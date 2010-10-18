@@ -1,0 +1,20 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    mocha (0.9.8)
+      rake
+    rake (0.8.7)
+    ruby-serialport (0.7.0)
+    tag-it (0.1.0)
+    test-unit (2.1.1)
+    thoughtbot-shoulda (2.11.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mocha
+  ruby-serialport
+  tag-it
+  test-unit
+  thoughtbot-shoulda

@@ -1,0 +1,2 @@
+class FireCoverageClient
+end
