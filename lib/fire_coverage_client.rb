@@ -1,2 +1,3 @@
-class FireCoverageClient
-end
+require 'rubygems'
+require 'bundler/setup'
+require 'fire_coverage/client'
