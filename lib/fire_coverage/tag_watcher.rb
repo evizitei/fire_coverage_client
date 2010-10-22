@@ -3,9 +3,9 @@ module FireCoverage
   class TagWatcher
     def update(tag,strength,event)
       if event == :tag_arrived
-        HTTParty.get('http://localhost:3000/rfid/tag_arrived',:query=>{:station=>1,:tag=>tag})
+        HTTParty.get(ARRIVAL_WEB_URL,:query=>{:receiver=>RECEIVER_ID,:tag=>tag})
       elsif event == :tag_departed
-        HTTParty.get('http://localhost:3000/rfid/tag_departed',:query=>{:station=>1,:tag=>tag})
+        HTTParty.get(DEPARTURE_WEB_URL,:query=>{:receiver=>RECEIVER_ID,:tag=>tag})
       end
     end
   end
