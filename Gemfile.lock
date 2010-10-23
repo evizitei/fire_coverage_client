@@ -4,11 +4,11 @@ GEM
     crack (0.1.8)
     httparty (0.6.1)
       crack (= 0.1.8)
-    mocha (0.9.8)
+    mocha (0.9.9)
       rake
     rake (0.8.7)
     ruby-serialport (0.7.0)
-    tag-it (0.1.0)
+    tag-it (0.2.1)
     test-unit (2.1.1)
     thoughtbot-shoulda (2.11.1)
 
